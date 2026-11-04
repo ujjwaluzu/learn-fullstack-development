@@ -3,7 +3,10 @@ Challenge:
 Wrap the buttons in a flexbox div and center them.
 Give the div a "btn-wrapper" class.
 */
-
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
 .main {
     margin-top: 100px;    
 }
@@ -31,6 +34,7 @@ Give the div a "btn-wrapper" class.
 }
 
 .btn {
+
     margin-top: 30px;
     background: #dfe1e5;
     border: none;
@@ -40,4 +44,6 @@ Give the div a "btn-wrapper" class.
     padding-right: 16px;
     border-radius: 4px;
     font-size: 14px;
+    margin-right: 4px;
+    margin-left: 4px;
 }
